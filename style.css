@@ -1,0 +1,313 @@
+ /* rgb(22, 18, 14)
+ #ffebd2
+ rgb(231, 185, 128);
+ #1b3105
+
+ #eeb485
+ 
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition:0,5s linear ;
+
+    
+}
+body{
+    background-color:#ffebd2;
+
+}
+
+section{
+    margin: 0 auto;
+    max-width:2800px;
+   
+    
+   
+}
+.principal{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 99;
+    border:0px, #5f5d5d solid;
+    background-color: #000;
+    
+    
+}
+.inicio p{
+    font-size: 24px;
+    text-align: center;
+}
+.principal section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1,5px;
+    padding-bottom:1,5px ;
+}
+
+.menu a{
+
+    color: #fff;
+    padding-right: 30px;
+    padding-top: 10px;
+    gap:20px;
+    cursor: pointer;
+    font-size: 27px;
+    
+}
+.menu a:hover{
+    color: rgb(231, 185, 128);
+    border:#5f5d5d;
+    font-size: 30px;
+}
+
+
+section{
+    font-size: 45px;
+    color: #fff;
+
+
+}
+section span{
+    color: rgb(231, 185, 128);
+}
+.icons input{
+    width: 300px;
+    height: 40px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.icons input:hover{
+    width: 500px;
+    height: 60px;
+
+}
+
+
+.icons img{
+    cursor: pointer;
+   
+   
+}
+.icons img:hover{
+    width: 45px;
+    height: 45px;
+    transition: 0,5s;
+    
+        
+}
+
+.sessao1 {
+    width: 100%;
+    height: 900px;
+    background-color: #d39a6c;
+    align-items: center;
+    padding-top: 500px; 
+    align-items: center;
+    
+
+}
+.conteudo{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+   
+}
+.texto{
+    width: 100%;
+    height: 300px;
+    padding: auto;
+    border:5px solid #1b3105;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.texto h3{
+    width: 100%;
+    color:  #1b3105; 
+    font-size: 100px;
+    padding: auto;
+   
+
+}
+.texto p{
+    width: 100%;
+    font-size: 30px;
+    
+    
+   
+}
+.conteudo .foto{
+    width: 800px;
+    height: 650px;
+    border-radius: 50px;
+    padding: 30px;
+    
+}
+
+.projetos{
+    padding: 500px;
+    margin: auto;
+    
+    
+
+}
+.titulo{
+    margin-bottom: 5rem;
+    font-size: 80px;
+    color:#1b3105;;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+.titulo span{
+    color: rgb(235, 136, 15);
+    text-transform: uppercase;
+}
+.box1{
+    width: 1400px;
+    
+    transition-duration: 3s;
+    cursor: pointer;
+}
+.box1:hover{
+    width: 100%;
+}
+
+
+.caixa1{
+    width: 100%;
+    background-color: #eedeca;
+    height: 500px;
+    border-radius: 20px;
+    
+}
+
+
+
+.caixa1 .elementos{
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+
+}
+.elementos img{
+    width: 800px;
+    height: 700px;
+    border-radius: 80px;
+
+}
+
+.conteiner{
+    
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.conteiner h2{
+    font-size: 70px;
+    color: #000;
+    
+}
+.conteiner button{
+    width: 200px;
+    height: 80px;
+    background-color:#eedeca ; /*#eeb485*/
+    border-radius: 30px;
+    border: none;
+    color:#000 ;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    transition-duration: 1s;
+    
+    
+    
+
+    
+    
+}
+.conteiner button:hover{
+    font-size: 30px;
+    background-color: #eeb485 ;
+    width: 230px;
+    height: 80px;
+    
+}
+
+
+.caixa2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    justify-content: center;
+    gap: 40px;
+
+   }
+
+   .clientes{
+    padding: 200px;
+   }
+
+.clientela{
+    border:1px solid #222121 ;
+    width: 500px;
+    height: 820px;
+    background-color: #d39a6c;
+    text-align: center;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+.clientela .aspas{
+    color: #fff;
+}
+.clientela .fotocliente{
+    border-radius: 50%;
+}
+.clientela p{
+    font-size: 18px;
+}
+        
+
+
+.incons{
+    background-color: #5f5a5a;
+    padding: 10px;
+    text-align: center;
+    cursor:pointer;
+    height: 20vw;
+   
+ 
+ }
+.incons img:hover{
+    background-color: rgb(231, 185, 128);
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+ }
+
+.final {
+    font-size: 30px;
+    padding: 5%;
+}
+
+ 
+ 
+ 
